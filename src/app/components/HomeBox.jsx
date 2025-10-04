@@ -4,17 +4,17 @@ import { useEffect, useState, useRef, Fragment } from "react";
 import { AnimatedText } from "./TypingIntro";
 
 const navItems = [
-    {name: "ABOUT", href: "#about", img: "/coin-icon-pixel.png", darkimg: "/coin-icon-pixel-green.png", alt: "about me icon"},
-    {name: "EDU", href: "#education", img: "/book-icon-pixel.png", darkimg: "/book-icon-pixel-green.png", alt: "book icon"},
-    {name: "WORK", href: "#skills", img: "/cat-icon-pixel.png", darkimg: "/cat-icon-pixel-green.png", alt: "work icon"},
-    {name: "CONTACT", href: "#contact", img: "/mail-icon-pixel.png", darkimg: "/mail-icon-pixel-green.png", alt: "mail icon"},
-    {name: "MUSIC", href: "/music", img: "/headphones-icon-pixel.png", darkimg: "/headphones-icon-pixel-green.png", alt: "music page icon"}
+    {name: "ABOUT", href: "#about", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/coin-icon-pixel.png", darkimg: "/coin-icon-pixel-green.png", alt: "about me icon"},
+    {name: "EDU", href: "#education", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/book-icon-pixel.png", darkimg: "/book-icon-pixel-green.png", alt: "book icon"},
+    {name: "WORK", href: "#skills", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/cat-icon-pixel.png", darkimg: "/cat-icon-pixel-green.png", alt: "work icon"},
+    {name: "CONTACT", href: "#contact", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/mail-icon-pixel.png", darkimg: "/mail-icon-pixel-green.png", alt: "mail icon"},
+    {name: "MUSIC", href: "/music", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/headphones-icon-pixel.png", darkimg: "/headphones-icon-pixel-green.png", alt: "music page icon"}
 
 ]
 
 export const HomeBox = () => {
    
-return(
+return( 
  
     
   <div className = "container mx-auto max-w-5xl justify-center align-center">  
