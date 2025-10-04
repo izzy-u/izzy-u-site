@@ -6,7 +6,7 @@ export default function Custom404() {
     <>
      <div className = "relative min-h-screen">
         <div className = "fixed inset-0 -z-10"> 
-     <CablesPatch patchDir={"/notfound-patch/"} canvasId={"othercanvas"} patchOptions={{ "glCanvasResizeToWindow": true }}/>
+     <CablesPatch patchDir={"/izzy-u-site/notfound-patch/"} canvasId={"othercanvas"} patchOptions={{ "glCanvasResizeToWindow": true }}/>
      </div>
       <div className = "container mx-auto max-w-5xl justify-center align-center pointer-events-auto">
     <div className = "bg-card p-8 rounded-lg shadow-xs border border-gray-200">

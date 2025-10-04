@@ -27,11 +27,11 @@ export const Music = () => {
 
      <a href="#" className="flex flex-col text-foreground/80 items-center justify-center hover:text-primary transition-colors duration-300 courier-font mb-3">
                <picture>
-                    <img src= '/music-notes-green.png'
+                    <img src= '/izzy-u-site/music-notes-green.png'
                         className = "w-16 h-16 hover:scale-110 dark:hidden"
                         alt = "music note icon"
                         />
-                    <img src = '/music-notes.png' className = "hidden dark:block w-16 h-16 hover:scale-110" alt = "music note icon" /> 
+                    <img src = '/izzy-u-site/music-notes.png' className = "hidden dark:block w-16 h-16 hover:scale-110" alt = "music note icon" /> 
      
                 </picture>
                     click on one of the categories below!

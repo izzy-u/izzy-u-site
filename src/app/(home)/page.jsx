@@ -13,7 +13,7 @@ export default function Home() {
   return <div className = "relative min-h-screen"> 
   <div className = "fixed inset-0 -z-10"> 
 
-             <CablesPatch patchDir={"/home-patch/"} canvasId={"maincanvas"} patchOptions={{ "glCanvasResizeToWindow": true }}/>
+             <CablesPatch patchDir={"/izzy-u-site/home-patch/"} canvasId={"maincanvas"} patchOptions={{ "glCanvasResizeToWindow": true }}/>
     </div>
 
   
