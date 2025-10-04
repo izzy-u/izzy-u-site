@@ -16,7 +16,7 @@ export const Music = () => {
     <div className = "bg-card p-8 rounded-lg shadow-xs border border-gray-200">
                    <div className = "flex items-start space-x-4">
                                 <div className = "p-3 rounded-full bg-primary/10 hover:bg-primary/40">
-                                <a href = "/"> 
+                                <a href = "/izzy-u-site"> 
                                     <ArrowLeft className = "h-6 w-6 text-primary" /> {" "}
                                 </a>
                                 </div>
