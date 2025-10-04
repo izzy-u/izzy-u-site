@@ -8,7 +8,7 @@ const navItems = [
     {name: "EDU", href: "#education", img: "/izzy-u-site/book-icon-pixel.png", darkimg: "/izzy-u-site/book-icon-pixel-green.png", alt: "book icon"},
     {name: "WORK", href: "#skills", img: "/izzy-u-site/cat-icon-pixel.png", darkimg: "/izzy-u-site/cat-icon-pixel-green.png", alt: "work icon"},
     {name: "CONTACT", href: "#contact", img: "/izzy-u-site/mail-icon-pixel.png", darkimg: "/izzy-u-site/mail-icon-pixel-green.png", alt: "mail icon"},
-    {name: "MUSIC", href: "/music", img: "/izzy-u-site/headphones-icon-pixel.png", darkimg: "/izzy-u-site/headphones-icon-pixel-green.png", alt: "music page icon"}
+    {name: "MUSIC", href: "/izzy-u-site/music", img: "/izzy-u-site/headphones-icon-pixel.png", darkimg: "/izzy-u-site/headphones-icon-pixel-green.png", alt: "music page icon"}
 
 ]
 

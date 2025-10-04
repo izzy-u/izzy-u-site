@@ -36,7 +36,7 @@ export const Contact = () => {
 
             <div className="mt-2">
               <a
-                href="www.linkedin.com/in/isabella-yoeu"
+                href= "linkedin.com/in/isabella-yoeu"
                 className="courier-font mt-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 isabella yoeu | linkedin
