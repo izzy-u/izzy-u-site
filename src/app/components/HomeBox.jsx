@@ -20,7 +20,7 @@ return(
   <div className = "container mx-auto max-w-5xl justify-center align-center">  
 
     <div className = "bg-card p-8 rounded-lg shadow-xs border border-gray-200">
-        <h3 className = "text-2xl text-glow font-semibold mb-3 justify-center align-center courier-font text-primary"> hi! i'm <span className = "courier-font text-primary"> isabella yoeu </span></h3>
+        <h3 className = "text-2xl text-glow font-semibold mb-3 justify-center align-center courier-font text-primary"> hi! i'm <span className = "courier-font text-bg-primary"> isabella yoeu </span></h3>
         
         <div className = "typingspan"> <AnimatedText/></div>
 
