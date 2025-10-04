@@ -4,11 +4,11 @@ import { useEffect, useState, useRef, Fragment } from "react";
 import { AnimatedText } from "./TypingIntro";
 
 const navItems = [
-    {name: "ABOUT", href: "#about", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/coin-icon-pixel.png", darkimg: "/coin-icon-pixel-green.png", alt: "about me icon"},
-    {name: "EDU", href: "#education", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/book-icon-pixel.png", darkimg: "/book-icon-pixel-green.png", alt: "book icon"},
-    {name: "WORK", href: "#skills", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/cat-icon-pixel.png", darkimg: "/cat-icon-pixel-green.png", alt: "work icon"},
-    {name: "CONTACT", href: "#contact", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/mail-icon-pixel.png", darkimg: "/mail-icon-pixel-green.png", alt: "mail icon"},
-    {name: "MUSIC", href: "/music", img: "${process.env.NEXT_PUBLIC_BASE_PATH}/headphones-icon-pixel.png", darkimg: "/headphones-icon-pixel-green.png", alt: "music page icon"}
+    {name: "ABOUT", href: "#about", img: "/izzy-u-site/coin-icon-pixel.png", darkimg: "/coin-icon-pixel-green.png", alt: "about me icon"},
+    {name: "EDU", href: "#education", img: "/izzy-u-site/book-icon-pixel.png", darkimg: "/book-icon-pixel-green.png", alt: "book icon"},
+    {name: "WORK", href: "#skills", img: "/izzy-u-site/cat-icon-pixel.png", darkimg: "/cat-icon-pixel-green.png", alt: "work icon"},
+    {name: "CONTACT", href: "#contact", img: "/izzy-u-site/mail-icon-pixel.png", darkimg: "/mail-icon-pixel-green.png", alt: "mail icon"},
+    {name: "MUSIC", href: "/music", img: "/izzy-u-site/headphones-icon-pixel.png", darkimg: "/headphones-icon-pixel-green.png", alt: "music page icon"}
 
 ]
 
