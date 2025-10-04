@@ -16,7 +16,7 @@ export const Music = () => {
     <div className = "bg-card p-8 rounded-lg shadow-xs border border-gray-200">
                    <div className = "flex items-start space-x-4">
                                 <div className = "p-3 rounded-full bg-primary/10 hover:bg-primary/40">
-                                <a href = "/izzy-u-site"> 
+                                <a href = "/"> 
                                     <ArrowLeft className = "h-6 w-6 text-primary" /> {" "}
                                 </a>
                                 </div>
@@ -27,11 +27,11 @@ export const Music = () => {
 
      <a href="#" className="flex flex-col text-foreground/80 items-center justify-center hover:text-primary transition-colors duration-300 courier-font mb-3">
                <picture>
-                    <img src= '/izzy-u-site/music-notes-green.png'
+                    <img src= '/music-notes-green.png'
                         className = "w-16 h-16 hover:scale-110 dark:hidden"
                         alt = "music note icon"
                         />
-                    <img src = '/izzy-u-site/music-notes.png' className = "hidden dark:block w-16 h-16 hover:scale-110" alt = "music note icon" /> 
+                    <img src = '/music-notes.png' className = "hidden dark:block w-16 h-16 hover:scale-110" alt = "music note icon" /> 
      
                 </picture>
                     click on one of the categories below!
