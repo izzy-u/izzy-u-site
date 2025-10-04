@@ -18,7 +18,7 @@ export const AboutMe = () => {
                             </div>
 
                             <div> 
-                                <h4 className = "courier-font text-glow"> my name is<span className = "text-primary"> isabella yoeu</span>! i'm a 2nd year ling/CS student at UCLA pursuing minors in mathematics and film. i grew up in the bay area and have interest in all things CS + cinema. i enjoy rating music and reading classics in my free time :D   </h4> 
+                                <h4 className = "courier-font text-glow"> my name is<span className = "text-primary"> isabella yoeu</span>! i'm a 2nd year linguistics + CS student at UCLA pursuing minors in mathematics and film. i grew up in the bay area and have interest in all things tech + cinema. i enjoy rating music and reading classics in my free time :D   </h4> 
                             </div>
                         </div>
                     </div>
