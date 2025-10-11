@@ -120,6 +120,11 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
+  canvas:focus{
+    @apply outline-none; 
+  }
+  }
+
 }
 
 @utility container {
