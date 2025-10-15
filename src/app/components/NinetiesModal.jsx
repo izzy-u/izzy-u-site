@@ -104,7 +104,7 @@ const ninetiesSongs = [
     {
         title: "sick love",
         artist: "red hot chili peppers",
-        lyrics: "sick love com,es to wash us away..."
+        lyrics: "sick love comes to wash us away..."
     },
     {
         title: "runaway train",
